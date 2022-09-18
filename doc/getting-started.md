@@ -39,7 +39,7 @@ INT     : [0-9]+ ;
 
 ### Windows-specific issues
 
-On Windows, the `pip` command doesn't just work---you need to add the `...\local-packages\python38\scripts` dir to your `PATH`, which itself might require a fun reboot.  If you use WSL on Windows, then the pip install will also properly at the scripts directly (if you run from bash shell).
+On Windows, the `pip` command doesn't just work---you need to add the `...\local-packages\python3x\scripts` dir to your `PATH` (replace x with your python version number), which itself might require a fun reboot.  If you use WSL on Windows, then the pip install will also properly at the scripts directly (if you run from bash shell).
 
 
 1. Go to the Microsoft Store
